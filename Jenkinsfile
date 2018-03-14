@@ -5,7 +5,7 @@ node {
 stage ('Run Script'){
     sh "sh simple.sh"
 }
-Stage ('Success'){
+stage ('Success'){
 sh "echo 'Success'"
 }
 }
