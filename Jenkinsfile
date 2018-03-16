@@ -1,4 +1,4 @@
-node ('cloud') {
+node ('oncloud') {
 
     stage ('Checkout Code') {
           checkout scm
